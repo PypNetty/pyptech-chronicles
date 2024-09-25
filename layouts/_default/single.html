@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Déclaration de la langue modifiée -->
+  {{ partial "head.html" . }}
+  <!-- Inclure le head ici -->
+  <body>
+    {{ partial "header.html" . }}
+    <!-- Inclure la navigation ici -->
+    <main class="content">
+      <article class="post">
+        <header class="post-header">
+          <h1>{{ .Title }}</h1>
+          <p>{{ .Date.Format "02 Janvier 2006" }}</p>
+        </header>
+        <section class="post-content">{{ .Content }}</section>
+      </article>
+    </main>
+    {{ partial "footer.html" . }}
+    <!-- Inclure le pied de page ici -->
+  </body>
+</html>
