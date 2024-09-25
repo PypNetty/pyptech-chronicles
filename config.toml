@@ -13,22 +13,22 @@ theme = "toha"
   [[params.sections]]
     title = "Linux"
     description = "Explorez les fondamentaux et avancées de Linux dans des articles détaillés."
-    url = "/categories/linux/"
+    url = "/category/linux/"
 
   [[params.sections]]
     title = "Réseau"
     description = "Découvrez les réseaux informatiques, VLANs, et optimisation d'infrastructures."
-    url = "/categories/reseau/"
+    url = "/category/reseau/"
 
   [[params.sections]]
     title = "DevOps"
     description = "Tout sur l'automatisation, Kubernetes, Docker et l'administration système."
-    url = "/categories/devops/"
+    url = "/category/devops/"
 
   [[params.sections]]
     title = "Vie d'un Tech en Reconversion"
     description = "Suivez mon parcours de reconversion dans l'IT et mes réflexions personnelles."
-    url = "/categories/reconversion/"
+    url = "/category/reconversion/"
 
 [languages]
   [languages.en]
