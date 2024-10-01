@@ -9,42 +9,42 @@ Bienvenue sur mon blog dédié à **Linux**, **Réseau**, **DevOps** et **la rec
 
 ## Sections
 
-- **Linux** : [Découvrez les articles](./categories/linux/)
-- **Réseau** : [Articles sur le réseau](./categories/reseau/)
-- **DevOps** : [Apprendre l'automatisation](./categories/devops/)
-- **Reconversion** : [Mon parcours et réflexions](./categories/reconversion/)
+- **Linux** : [Découvrez les articles](/categories/linux/)
+- **Réseau** : [Articles sur le réseau](/categories/reseau/)
+- **DevOps** : [Apprendre l'automatisation](/categories/devops/)
+- **Reconversion** : [Mon parcours et réflexions](/categories/reconversion/)
 
 ## Articles Récents
 
 ### Articles de Reconversion
 
-{{ range first 5 (where .Pages "Section" "posts" "Category" "Reconversion") }}
+{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "reconversion")) }}
 
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary }}
+- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
   {{ end }}
 
 ### Articles sur Linux
 
-{{ range first 5 (where .Pages "Section" "posts" "Category" "Linux") }}
+{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "linux")) }}
 
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary }}
+- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
   {{ end }}
 
 ### Articles sur le Réseau
 
-{{ range first 5 (where .Pages "Section" "posts" "Category" "Réseau") }}
+{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "reseau")) }}
 
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary }}
+- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
   {{ end }}
 
 ### Articles sur DevOps
 
-{{ range first 5 (where .Pages "Section" "posts" "Category" "DevOps") }}
+{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "devops")) }}
 
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary }}
+- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
   {{ end }}
 
 ---
 
-© 2024 PypTech-Chronicles. Tous droits réservés.  
+© {{ now.Format "2006" }} PypTech-Chronicles. Tous droits réservés.
 [Politique de confidentialité](#) | [Contact](#)

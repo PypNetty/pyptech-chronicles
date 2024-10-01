@@ -1,24 +1,17 @@
-<header></header>
+<header>
   <nav class="navbar">
-    <ul>
-      <li><a href="/">Pyptech Chronicles</a></li>
-      <li><a href="/rss.xml">RSS</a></li>
-      <li><a href="/archives">Archives</a></li>
-      <li><a href="https://supportme.com" target="_blank">Support me</a> ❤️</li>
-    </ul>
-
-    <form action="/search" method="get">
-      <input type="text" name="q" placeholder="Search ..." />
-      <button type="submit">Rechercher</button>
-    </form>
-
-    <div class="language-switcher">
-      <a href="/?lang=en"><img src="/icons/english-flag.svg" alt="EN" /></a>
-      <a href="/?lang=fr"><img src="/icons/french-flag.svg" alt="FR" /></a>
-    </div>
-
-    <div class="theme-switcher">
-      <button onclick="toggleTheme()">🌙</button>
+    <div class="container">
+      <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      <div class="navbar-menu">
+        <a href="/rss.xml">RSS</a>
+        <a href="/archives">Archives</a>
+        <a href="https://supportme.com" target="_blank">Support me ❤️</a>
+        <div class="language-switcher">
+          <a href="/?lang=en">EN</a>
+          <a href="/?lang=fr">FR</a>
+        </div>
+        <button onclick="toggleTheme()">🌙</button>
+      </div>
     </div>
   </nav>
 </header>

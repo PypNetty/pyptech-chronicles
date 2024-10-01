@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script></head>
+<html lang="fr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,40 +14,45 @@
   <link rel="stylesheet" href='/css/style.css' />
   <script src='/js/theme-toggle.js'></script>
 </head>
-  
+
+  </head>
   <body>
-    <header></header>
+    <header>
   <nav class="navbar">
-    <ul>
-      <li><a href="/">Pyptech Chronicles</a></li>
-      <li><a href="/rss.xml">RSS</a></li>
-      <li><a href="/archives">Archives</a></li>
-      <li><a href="https://supportme.com" target="_blank">Support me</a> ❤️</li>
-    </ul>
-
-    <form action="/search" method="get">
-      <input type="text" name="q" placeholder="Search ..." />
-      <button type="submit">Rechercher</button>
-    </form>
-
-    <div class="language-switcher">
-      <a href="/?lang=en"><img src="/icons/english-flag.svg" alt="EN" /></a>
-      <a href="/?lang=fr"><img src="/icons/french-flag.svg" alt="FR" /></a>
-    </div>
-
-    <div class="theme-switcher">
-      <button onclick="toggleTheme()">🌙</button>
+    <div class="container">
+      <a class="navbar-brand" href="http://localhost:1313/">My New Hugo Site</a>
+      <div class="navbar-menu">
+        <a href="/rss.xml">RSS</a>
+        <a href="/archives">Archives</a>
+        <a href="https://supportme.com" target="_blank">Support me ❤️</a>
+        <div class="language-switcher">
+          <a href="/?lang=en">EN</a>
+          <a href="/?lang=fr">FR</a>
+        </div>
+        <button onclick="toggleTheme()">🌙</button>
+      </div>
     </div>
   </nav>
 </header>
-    
+
     <main class="content">
-      <article class="post">
-        <header class="post-header">
-          <h1>De la Crise à la Transition : Mon Chemin du Développement à l&#39;Ops</h1>
-          <p>25 Janvier 2024</p>
-        </header>
-        <section class="post-content"><h1 id="de-la-crise-à-la-transition--mon-chemin-du-développement-à-lops">De la Crise à la Transition : Mon Chemin du Développement à l&rsquo;Ops</h1>
+<section class="section">
+  <div class="container">
+    <article class="post">
+      <h1 class="title">De la Crise à la Transition : Mon Chemin du Développement à l&#39;Ops</h1>
+      <div class="post-metadata">
+        <span class="date">25 September 2024</span>
+        
+        <span class="categories">
+          Catégories:   
+          <a href='/categories/reconversion/'
+            >reconversion</a
+          >
+           
+        </span>
+        
+      </div>
+      <div class="content"><h1 id="de-la-crise-à-la-transition--mon-chemin-du-développement-à-lops">De la Crise à la Transition : Mon Chemin du Développement à l&rsquo;Ops</h1>
 <h2 id="introduction">Introduction</h2>
 <p>Mon parcours vers le monde de l&rsquo;Ops n’a pas été simple, marqué par la pandémie de Covid-19 et des défis de santé. J’ai commencé ma carrière en développement pour une raison bien précise, mais la maladie et les aléas de la vie ont souvent mis mes projets en pause. Malgré tout, j’ai persévéré et découvert une passion pour l’administration des systèmes et des infrastructures. Voici mon histoire, du développement à l’Ops, où chaque obstacle m’a permis de grandir.</p>
 <hr>
@@ -89,9 +94,11 @@
 <h2 id="conclusion">Conclusion</h2>
 <p>Mon parcours de reconversion du <strong>dev à l’Ops</strong> a été un voyage semé d’embûches, mais chaque obstacle a renforcé ma détermination. Que ce soit les crises d&rsquo;épilepsie, les interruptions de formations dues à la pandémie, ou les changements de direction imprévus, j’ai appris à accepter ces défis et à les transformer en forces.</p>
 <p>Si tu envisages une reconversion ou fais face à des obstacles similaires, sache que tout est possible avec de la persévérance. Le domaine de l’IT est en constante évolution, et chaque compétence acquise, chaque obstacle surmonté, te rapproche de la réussite.</p>
+</div>
+    </article>
+  </div>
 </section>
-      </article>
-    </main>
+</main>
     <footer>
   <p>
     &copy; 2024 PypTech-Chronicles. Tous droits réservés.
@@ -102,6 +109,5 @@
   </p>
 </footer>
 
-    
   </body>
 </html>

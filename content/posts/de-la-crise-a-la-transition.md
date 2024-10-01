@@ -4,7 +4,8 @@ date: 2024-09-25
 draft: false
 params:
   author: "Henryck Paris"
-category: ["Reconversion"]
+categories: ["reconversion"]
+slug: "du-dev-a-ops"
 ---
 
 # De la Crise à la Transition : Mon Chemin du Développement à l'Ops

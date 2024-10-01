@@ -1,45 +1,28 @@
-<!DOCTYPE html>
-<html lang="fr">
-  {{ partial "head.html" . }}
-  <body>
-    {{ partial "header.html" . }}
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1>{{ .Site.Params.homeHeader }}</h1>
+    <p>{{ .Site.Params.homeSubheader }}</p>
 
-    <main class="content">
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description }}</p>
+    <h2>Sections</h2>
+    <ul>
+      {{ range .Site.Params.sections }}
+      <li>
+        <a href="{{ .url }}">{{ .title }}</a>
+        <p>{{ .description }}</p>
+      </li>
+      {{ end }}
+    </ul>
 
-      <section>
-        <h2>Sections</h2>
-        <ul>
-          <li>
-            <a href="./category/linux/">Linux : Découvrez les articles</a>
-          </li>
-          <li>
-            <a href="./category/reseau/">Réseau : Articles sur le réseau</a>
-          </li>
-          <li>
-            <a href="./category/devops/">DevOps : Apprendre l’automatisation</a>
-          </li>
-          <li>
-            <a href="./category/reconversion-tech/"
-              >Reconversion Tech : Mon parcours et réflexions</a
-            >
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Articles Récents</h2>
-        <ul>
-          {{ range first 5 (where .Pages "Section" "posts") }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Summary }}
-          </li>
-          {{ end }}
-        </ul>
-      </section>
-    </main>
-
-    {{ partial "footer.html" . }}
-  </body>
-</html>
+    <h2>Articles Récents</h2>
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p>{{ .Summary }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

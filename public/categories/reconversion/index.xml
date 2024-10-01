@@ -6,13 +6,20 @@
     <description>Recent content in Reconversion on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/reconversion/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>De la Crise à la Transition : Mon Chemin du Développement à l&#39;Ops</title>
+      <link>http://localhost:1313/posts/du-dev-a-ops/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/du-dev-a-ops/</guid>
+      <description>&lt;h1 id=&#34;de-la-crise-à-la-transition--mon-chemin-du-développement-à-lops&#34;&gt;De la Crise à la Transition : Mon Chemin du Développement à l&amp;rsquo;Ops&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Mon parcours vers le monde de l&amp;rsquo;Ops n’a pas été simple, marqué par la pandémie de Covid-19 et des défis de santé. J’ai commencé ma carrière en développement pour une raison bien précise, mais la maladie et les aléas de la vie ont souvent mis mes projets en pause. Malgré tout, j’ai persévéré et découvert une passion pour l’administration des systèmes et des infrastructures. Voici mon histoire, du développement à l’Ops, où chaque obstacle m’a permis de grandir.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Pourquoi j&#39;ai créé ce site</title>
-      <link>http://localhost:1313/posts/categories/reconversion/pourquoi-ce-blog/</link>
+      <link>http://localhost:1313/posts/pourquoi-ce-blog/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/categories/reconversion/pourquoi-ce-blog/</guid>
+      <guid>http://localhost:1313/posts/pourquoi-ce-blog/</guid>
       <description>&lt;p&gt;Bienvenue sur &lt;strong&gt;PypTech Chronicles&lt;/strong&gt; ! Ce site a été créé pour partager mes connaissances en développement, mes expériences en DevOps, et mes projets en informatique.&lt;/p&gt;&#xA;&lt;p&gt;Je vais publier des articles techniques, des tutoriels, et des réflexions sur les technologies modernes que j&amp;rsquo;utilise au quotidien.&lt;/p&gt;</description>
     </item>
   </channel>
