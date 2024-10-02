@@ -1,13 +1,35 @@
 {{ define "main" }}
 <main class="main">
   <article class="content">
-    <h1>{{ .Title }}</h1>
-    <input type="search" id="search-input" placeholder="Rechercher..." />
-    <div id="search-results"></div>
+    <h1>Rechercher dans PypTech Chronicles</h1>
+    <p>
+      La recherche complète n'est pas encore disponible. Vous pouvez parcourir
+      les articles par catégories et tags ci-dessous :
+    </p>
+
+    <!-- Ajouter les catégories -->
+    <section class="categories">
+      <h2>Catégories</h2>
+      <ul>
+        {{ range .Site.Taxonomies.categories }}
+        <li>
+          <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <!-- Ajouter les tags -->
+    <section class="tags">
+      <h2>Tags</h2>
+      <ul>
+        {{ range .Site.Taxonomies.tags }}
+        <li>
+          <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+        </li>
+        {{ end }}
+      </ul>
+    </section>
   </article>
 </main>
-<script>
-  // Ici, vous pouvez ajouter un script de recherche côté client
-  // Pour l'instant, c'est juste un placeholder
-</script>
 {{ end }}

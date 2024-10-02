@@ -21,7 +21,7 @@ markup:
     ordered: false
 
 outputs:
-  home: ["HTML", "RSS"]
+  home: ["HTML"]
 
 permalinks:
   posts: "/posts/:slug/"
@@ -32,36 +32,23 @@ menu:
     - name: "Accueil"
       url: "/"
       weight: 1
-    - name: "Articles"
-      url: "/posts"
-      weight: 2
-    - name: "Linux"
-      url: "/categories/linux"
-      weight: 3
-    - name: "DevOps"
-      url: "/categories/devops"
-      weight: 4
-    - name: "Réseaux"
-      url: "/categories/reseaux"
-      weight: 5
-    - name: "Reconversion"
-      url: "/categories/reconversion"
-      weight: 6
     - name: "Archives"
       url: "/archives/"
-      weight: 7
+      weight: 2
     - name: "Recherche"
       url: "/search/"
-      weight: 8
+      weight: 3
+    - name: "Qui suis-je"
+      url: "/whoami"
+      weight: 4
+    - name: "Mentions légales"
+      url: "/mention-legale"
+      weight: 5
 
 # Paramètres personnalisés
 params:
   mainSections:
     - posts
-    - linux
-    - reseau
-    - devops
-    - reconversion
   author:
     name: "PypTech Chronicles"
     bio: "Blog sur Linux, Réseau, DevOps et la reconversion dans l'IT."
@@ -80,11 +67,19 @@ params:
   sidebar:
     compact: false
     emoji: "🔍"
-    subtitle: "Explorez mes articles par tags"
+    subtitle: "Explorez mes articles"
     avatar:
       enabled: false
       local: true
       src: "images/avatar.webp"
+
+  # Configuration des tags pour Linux, Virtualisation, Kubernetes, Docker, Cloud
+  tags:
+    - linux
+    - virtualisation
+    - kubernetes
+    - docker
+    - cloud
 
   # Widgets de la page d'accueil
   widgets:
@@ -92,7 +87,7 @@ params:
       - type: search
       - type: archives
         params:
-          limit: 5
+          limit: 6
       - type: categories
         params:
           limit: 10
