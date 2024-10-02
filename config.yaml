@@ -5,7 +5,7 @@ theme: "stack"
 
 # Configurations de base pour Hugo
 enableEmoji: true
-enableGitInfo: true # Activation pour utiliser les informations Git pour le champ 'lastmod'
+enableGitInfo: false # Activation pour utiliser les informations Git pour le champ 'lastmod'
 
 # Configuration des taxonomies
 taxonomies:
