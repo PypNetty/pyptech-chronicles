@@ -11,6 +11,10 @@ Bienvenue dans cette chronique spécialement dédiée aux futurs experts en syst
 
 ### La ligne de commande ? Toute noire et un peu flippante ?
 
+![Peur du terminal](peur-terminal.png)
+
+**N'ayez pas peur, la ligne de commande n'a jamais mangé personne... enfin, presque !**
+
 Pas de panique ! Ici, on dédramatise ! La ligne de commande, c'est comme un vélo : une fois que vous avez appris à pédaler, vous n'avez plus peur de tomber. On va explorer ensemble ce qui se cache derrière des commandes comme `ls`, `cd`, ou `rm` et je vous promets que ça ne mord pas. Allez, accrochez-vous, c'est parti pour une aventure (sans danger) dans les tréfonds de Linux ! Et rappelez-vous : **personne n'a jamais été mangé par un shell**... enfin, presque.
 
 ## 1. La commande `cd`
@@ -24,7 +28,7 @@ La commande `cd` (change directory) permet de naviguer dans les répertoires du 
 
 Voici une explication visuelle détaillée de la commande `cd` via ExplainShell :
 
-![Explication de la commande cd](explication-cd.png)
+![Explication de la commande cd](/expliquation-cd.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=cd)
 
@@ -55,7 +59,7 @@ La commande `ls` permet d'afficher le contenu d'un répertoire.
 
 Voici un exemple de l'utilisation de la commande `ls` dans un terminal :
 
-![Explication de la commande ls](explication-ls.png)
+![Explication de la commande ls](/expliquation-ls.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=ls)
 
@@ -63,7 +67,7 @@ _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=ls)
 
 - **Affichage détaillé** : L'option `-l` indique au shell de récupérer et d'afficher des informations supplémentaires sur chaque fichier, comme les permissions, le propriétaire, le groupe, la taille, et la date de modification. Ces informations sont récupérées via l'appel système `stat()`.
 
-![Explication de la commande ls -l](explication-ls-l.png)
+![Explication de la commande ls -l](/expliquation-ls-l.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=ls+%2Dl)
 
@@ -71,7 +75,7 @@ _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=ls+%2Dl)
 
 - **Afficher les fichiers cachés** : L'option `-a` permet d'afficher tous les fichiers, y compris ceux qui sont cachés (fichiers dont le nom commence par un point). Sous le capot, `ls` utilise encore `readdir()` mais sans exclure ces fichiers masqués par défaut.
 
-![Explication de la commande ls -la](explication-ls-la.png)
+![Explication de la commande ls -la](/expliquation-ls-la.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=ls+%2Dla)
 
@@ -102,7 +106,7 @@ La commande `touch` permet de créer un fichier vide ou de mettre à jour la dat
 
 Voici l'explication de la commande `touch` via ExplainShell :
 
-![Explication de la commande touch](explication-touch.png)
+![Explication de la commande touch](/expliquation-touch.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=touch)
 
@@ -129,7 +133,7 @@ La commande `cat` (concatenate) permet de visualiser le contenu d'un fichier.
 
 Voici l'explication de la commande `cat` :
 
-![Explication de la commande cat](explication-cat.png)
+![Explication de la commande cat](expliquation-cat.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=cat)
 
@@ -163,7 +167,7 @@ La commande `mkdir` permet de créer un nouveau répertoire.
 
 Voici l'explication de la commande `mkdir` :
 
-![Explication de la commande mkdir](explication-mkdir.png)
+![Explication de la commande mkdir](expliquation-mkdir.png)
 
 _Crédit image :_ [ExplainShell](https://explainshell.com/explain?cmd=mkdir)
 
