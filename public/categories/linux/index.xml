@@ -6,7 +6,7 @@
         <description>Recent content in Linux on PypTech Chronicles</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>fr-fr</language>
-        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 15:58:38 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Les commandes de base sous Linux : Ce qui se passe sous le capot</title>
         <link>http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
@@ -215,14 +215,18 @@
 &lt;li&gt;&lt;strong&gt;Supprimer un répertoire&lt;/strong&gt; : Lorsque vous utilisez &lt;code&gt;rm -r&lt;/code&gt; pour supprimer un répertoire, &lt;code&gt;rm&lt;/code&gt; va de manière récursive appeler &lt;code&gt;unlink()&lt;/code&gt; sur chaque fichier et sous-répertoire pour s&amp;rsquo;assurer que tout le contenu est supprimé.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici l&amp;rsquo;explication de la commande &lt;code&gt;rm&lt;/code&gt; :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/expliquation-rm.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-rm.png&#34;
+	width=&#34;1078&#34;
+	height=&#34;502&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-rm_hu6146377369096703528.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-rm_hu12354673721695259098.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande rm&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;515px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=rm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
