@@ -1,0 +1,10 @@
+# Ignorer les fichiers générés par Hugo
+/public/
+/resources/_gen/
+/node_modules/
+
+# Ignorer les fichiers de configuration spécifiques
+.hugo_build.lock
+
+# Ignorer les fichiers logs
+*.log
