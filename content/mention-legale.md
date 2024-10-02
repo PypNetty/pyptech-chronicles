@@ -1,6 +1,7 @@
 ---
 title: "Mentions légales"
 date: 2024-10-02
+lastmod: 2024-10-02
 layout: "default"
 ---
 

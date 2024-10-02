@@ -1,6 +1,7 @@
 ---
 title: "De la Crise à la Transition : Mon Chemin du Développement à l'Ops"
 date: 2024-09-25
+lastmod: 2024-10-02
 draft: false
 params:
   author: "Henryck Paris"
