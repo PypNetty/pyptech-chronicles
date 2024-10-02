@@ -6,7 +6,7 @@
         <description>Recent content in Commandes on PypTech Chronicles</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>fr-fr</language>
-        <lastBuildDate>Wed, 02 Oct 2024 15:58:38 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/commandes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 16:39:54 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/commandes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Les commandes de base sous Linux : Ce qui se passe sous le capot</title>
         <link>http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
@@ -15,7 +15,22 @@
         <description>&lt;h1 id=&#34;les-commandes-de-base-sous-linux--ce-qui-se-passe-sous-le-capot&#34;&gt;Les commandes de base sous Linux : Ce qui se passe sous le capot
 &lt;/h1&gt;&lt;p&gt;Bienvenue dans cette chronique spécialement dédiée aux futurs experts en systèmes et réseaux, notamment les courageux étudiants en &lt;strong&gt;TSSR&lt;/strong&gt;. Si vous commencez tout juste à vous familiariser avec l&amp;rsquo;univers mystérieux et parfois intimidant de la ligne de commande (oui, ce fameux écran noir qui vous fixe), ne vous inquiétez pas, on est tous passés par là.&lt;/p&gt;
 &lt;h3 id=&#34;la-ligne-de-commande--toute-noire-et-un-peu-flippante-&#34;&gt;La ligne de commande ? Toute noire et un peu flippante ?
-&lt;/h3&gt;&lt;p&gt;Pas de panique ! Ici, on dédramatise ! La ligne de commande, c&amp;rsquo;est comme un vélo : une fois que vous avez appris à pédaler, vous n&amp;rsquo;avez plus peur de tomber. On va explorer ensemble ce qui se cache derrière des commandes comme &lt;code&gt;ls&lt;/code&gt;, &lt;code&gt;cd&lt;/code&gt;, ou &lt;code&gt;rm&lt;/code&gt; et je vous promets que ça ne mord pas. Allez, accrochez-vous, c&amp;rsquo;est parti pour une aventure (sans danger) dans les tréfonds de Linux ! Et rappelez-vous : &lt;strong&gt;personne n&amp;rsquo;a jamais été mangé par un shell&lt;/strong&gt;&amp;hellip; enfin, presque.&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/peur-terminal.png&#34;
+	width=&#34;833&#34;
+	height=&#34;635&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/peur-terminal_hu9566197939446482596.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/peur-terminal_hu6251594451795245733.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Peur du terminal&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;314px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;N&amp;rsquo;ayez pas peur, la ligne de commande n&amp;rsquo;a jamais mangé personne&amp;hellip; enfin, presque !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pas de panique ! Ici, on dédramatise ! La ligne de commande, c&amp;rsquo;est comme un vélo : une fois que vous avez appris à pédaler, vous n&amp;rsquo;avez plus peur de tomber. On va explorer ensemble ce qui se cache derrière des commandes comme &lt;code&gt;ls&lt;/code&gt;, &lt;code&gt;cd&lt;/code&gt;, ou &lt;code&gt;rm&lt;/code&gt; et je vous promets que ça ne mord pas. Allez, accrochez-vous, c&amp;rsquo;est parti pour une aventure (sans danger) dans les tréfonds de Linux ! Et rappelez-vous : &lt;strong&gt;personne n&amp;rsquo;a jamais été mangé par un shell&lt;/strong&gt;&amp;hellip; enfin, presque.&lt;/p&gt;
 &lt;h2 id=&#34;1-la-commande-cd&#34;&gt;1. La commande &lt;code&gt;cd&lt;/code&gt;
 &lt;/h2&gt;&lt;p&gt;La commande &lt;code&gt;cd&lt;/code&gt; (change directory) permet de naviguer dans les répertoires du système de fichiers.&lt;/p&gt;
 &lt;h3 id=&#34;ce-que-fait-réellement-la-commande-cd-&#34;&gt;Ce que fait réellement la commande &lt;code&gt;cd&lt;/code&gt; :
@@ -24,14 +39,18 @@
 &lt;li&gt;&lt;strong&gt;Impact sur les processus&lt;/strong&gt; : Cela signifie que toutes les commandes exécutées ensuite vont opérer depuis ce nouveau répertoire, jusqu&amp;rsquo;à ce que vous changiez à nouveau de répertoire.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici une explication visuelle détaillée de la commande &lt;code&gt;cd&lt;/code&gt; via ExplainShell :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-cd.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-cd.png&#34;
+	width=&#34;1040&#34;
+	height=&#34;507&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-cd_hu14121069406653846368.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-cd_hu887803230563114675.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande cd&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;492px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=cd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -56,14 +75,18 @@
 &lt;li&gt;&lt;strong&gt;Formatage des résultats&lt;/strong&gt; : Le résultat est ensuite formaté pour être affiché dans le terminal. Si vous utilisez des options comme &lt;code&gt;ls -l&lt;/code&gt;, le shell appelle aussi d&amp;rsquo;autres fonctions comme &lt;code&gt;stat()&lt;/code&gt; pour récupérer les permissions et la taille des fichiers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici un exemple de l&amp;rsquo;utilisation de la commande &lt;code&gt;ls&lt;/code&gt; dans un terminal :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-ls.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls.png&#34;
+	width=&#34;1040&#34;
+	height=&#34;507&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls_hu692581708651457745.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls_hu5998172666197800527.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande ls&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;492px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=ls&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -72,14 +95,18 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Affichage détaillé&lt;/strong&gt; : L&amp;rsquo;option &lt;code&gt;-l&lt;/code&gt; indique au shell de récupérer et d&amp;rsquo;afficher des informations supplémentaires sur chaque fichier, comme les permissions, le propriétaire, le groupe, la taille, et la date de modification. Ces informations sont récupérées via l&amp;rsquo;appel système &lt;code&gt;stat()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-ls-l.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls-l.png&#34;
+	width=&#34;1078&#34;
+	height=&#34;502&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls-l_hu6374723491934280467.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls-l_hu11977165516289402587.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande ls -l&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;515px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=ls&amp;#43;%2Dl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -88,14 +115,18 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Afficher les fichiers cachés&lt;/strong&gt; : L&amp;rsquo;option &lt;code&gt;-a&lt;/code&gt; permet d&amp;rsquo;afficher tous les fichiers, y compris ceux qui sont cachés (fichiers dont le nom commence par un point). Sous le capot, &lt;code&gt;ls&lt;/code&gt; utilise encore &lt;code&gt;readdir()&lt;/code&gt; mais sans exclure ces fichiers masqués par défaut.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-ls-la.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls-la.png&#34;
+	width=&#34;1078&#34;
+	height=&#34;502&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls-la_hu3217581254148867200.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-ls-la_hu5737849254446205023.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande ls -la&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;515px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=ls&amp;#43;%2Dla&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -120,14 +151,18 @@
 &lt;li&gt;&lt;strong&gt;Mettre à jour les métadonnées&lt;/strong&gt; : Si le fichier existe déjà, &lt;code&gt;touch&lt;/code&gt; met simplement à jour son horodatage (date de dernière modification) avec les appels système &lt;code&gt;utime()&lt;/code&gt; ou &lt;code&gt;futimens()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici l&amp;rsquo;explication de la commande &lt;code&gt;touch&lt;/code&gt; via ExplainShell :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-touch.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-touch.png&#34;
+	width=&#34;1078&#34;
+	height=&#34;502&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-touch_hu2210823604056379425.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-touch_hu17250664675724923015.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande touch&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;515px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=touch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -148,14 +183,18 @@
 &lt;li&gt;&lt;strong&gt;Afficher le contenu d&amp;rsquo;un fichier&lt;/strong&gt; : Lorsque vous exécutez &lt;code&gt;cat&lt;/code&gt;, le fichier est ouvert avec &lt;code&gt;open()&lt;/code&gt;, lu avec &lt;code&gt;read()&lt;/code&gt;, puis affiché dans le terminal avec &lt;code&gt;write()&lt;/code&gt;. La commande &lt;code&gt;cat&lt;/code&gt; est très simple dans son fonctionnement, mais elle est incroyablement utile pour voir le contenu des fichiers texte.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici l&amp;rsquo;explication de la commande &lt;code&gt;cat&lt;/code&gt; :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-cat.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-cat.png&#34;
+	width=&#34;1078&#34;
+	height=&#34;502&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-cat_hu10531244990205057061.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-cat_hu6518709777559583570.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande cat&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;515px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=cat&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -183,14 +222,18 @@
 &lt;li&gt;&lt;strong&gt;Créer un nouveau répertoire&lt;/strong&gt; : &lt;code&gt;mkdir&lt;/code&gt; crée un nouveau dossier dans le système de fichiers avec l&amp;rsquo;appel système &lt;code&gt;mkdir()&lt;/code&gt;. Cela signifie qu&amp;rsquo;un nouvel inode (structure de données représentant le répertoire) est créé et associé à son emplacement dans le système de fichiers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici l&amp;rsquo;explication de la commande &lt;code&gt;mkdir&lt;/code&gt; :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/explication-mkdir.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-mkdir.png&#34;
+	width=&#34;1078&#34;
+	height=&#34;502&#34;
+	srcset=&#34;http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-mkdir_hu2358148458774652155.png 480w, http://localhost:1313/posts/les-commandes-de-base-sous-linux-ce-qui-se-passe-sous-le-capot/expliquation-mkdir_hu5235183174746293349.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Explication de la commande mkdir&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;515px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Crédit image :&lt;/em&gt; &lt;a class=&#34;link&#34; href=&#34;https://explainshell.com/explain?cmd=mkdir&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

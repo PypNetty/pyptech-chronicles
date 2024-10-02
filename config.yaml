@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313"
+baseURL: "https://pyptechlife.xyz"
 languageCode: "fr-fr"
 title: "PypTech Chronicles"
 theme: "stack"
