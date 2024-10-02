@@ -1,50 +1,35 @@
 ---
 title: "Bienvenue sur PypTech Chronicles"
 description: "Blog sur Linux, Réseau, DevOps et la vie d'un tech en reconversion."
+outputs:
+  - html
+  - json
 ---
 
 # PypTech Chronicles
 
-Bienvenue sur mon blog dédié à **Linux**, **Réseau**, **DevOps** et **la reconversion dans le secteur IT**. Découvrez mes articles ci-dessous.
+Bienvenue sur **PypTech Chronicles** ! Ce site a été créé pour partager mes connaissances en développement, mes expériences en DevOps, et mes projets en informatique. Je vais publier des articles techniques, des tutoriels, et des réflexions sur les technologies modernes que j'utilise au quotidien.
 
-## Sections
+## Pourquoi ce blog ?
 
-- **Linux** : [Découvrez les articles](/categories/linux/)
-- **Réseau** : [Articles sur le réseau](/categories/reseau/)
-- **DevOps** : [Apprendre l'automatisation](/categories/devops/)
-- **Reconversion** : [Mon parcours et réflexions](/categories/reconversion/)
+PypTech Chronicles est né de ma passion pour la technologie et de mon parcours de reconversion professionnelle. À travers ce blog, je souhaite :
 
-## Articles Récents
+- Partager des tutoriels et des astuces sur Linux, les réseaux et les pratiques DevOps
+- Documenter mon voyage de reconversion dans le secteur IT
+- Créer une ressource utile pour ceux qui, comme moi, sont en transition vers une carrière tech
+- Offrir des insights sur les défis et les opportunités dans le monde du développement et du DevOps
 
-### Articles de Reconversion
+Que vous soyez un professionnel chevronné ou un débutant curieux, j'espère que vous trouverez ici du contenu inspirant et instructif. Mon objectif est de créer une communauté d'apprentissage où nous pouvons partager nos expériences et grandir ensemble dans ce domaine en constante évolution.
 
-{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "reconversion")) }}
+## Explorez le contenu
 
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
-  {{ end }}
+N'hésitez pas à explorer les différentes catégories ci-dessous pour découvrir mes derniers articles :
 
-### Articles sur Linux
-
-{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "linux")) }}
-
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
-  {{ end }}
-
-### Articles sur le Réseau
-
-{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "reseau")) }}
-
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
-  {{ end }}
-
-### Articles sur DevOps
-
-{{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "devops")) }}
-
-- [{{ .Title }}]({{ .RelPermalink }}) - {{ .Summary | truncate 100 }}
-  {{ end }}
+- **Linux** : Astuces, configurations, et bonnes pratiques
+- **Réseau** : Concepts fondamentaux et configurations avancées
+- **DevOps** : Outils, méthodologies, et retours d'expérience
+- **Reconversion** : Mon parcours, défis et conseils pour ceux qui envisagent une transition similaire
 
 ---
 
-© {{ now.Format "2006" }} PypTech-Chronicles. Tous droits réservés.
-[Politique de confidentialité](#) | [Contact](#)
+Découvrez mes articles les plus récents dans chaque catégorie :

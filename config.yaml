@@ -1,0 +1,101 @@
+baseURL: "http://localhost:1313"
+languageCode: "fr-fr"
+title: "PypTech Chronicles"
+theme: "stack"
+
+# Configurations de base pour Hugo
+enableEmoji: true
+enableGitInfo: true
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+outputs:
+  home: ["HTML", "RSS"]
+
+permalinks:
+  posts: "/posts/:slug/"
+
+# Configuration du menu principal (Navbar)
+menu:
+  main:
+    - name: "Accueil"
+      url: "/"
+      weight: 1
+    - name: "Articles"
+      url: "/posts"
+      weight: 2
+    - name: "Linux"
+      url: "/categories/linux"
+      weight: 3
+    - name: "DevOps"
+      url: "/categories/devops"
+      weight: 4
+    - name: "Réseaux"
+      url: "/categories/reseaux"
+      weight: 5
+    - name: "Reconversion"
+      url: "/categories/reconversion"
+      weight: 6
+    - name: "Archives"
+      url: "/archives/"
+      weight: 7
+    - name: "Recherche"
+      url: "/search/"
+      weight: 8
+
+# Paramètres personnalisés
+params:
+  mainSections:
+    - posts
+    - linux
+    - reseau
+    - devops
+    - reconversion
+  author:
+    name: "PypTech Chronicles"
+    bio: "Blog sur Linux, Réseau, DevOps et la reconversion dans l'IT."
+    avatar: "images/avatar.webp"
+  description: "Découvrez des articles techniques sur les technologies Linux, DevOps, et Réseau."
+  social:
+    twitter: "https://twitter.com/yourprofile"
+    github: "https://github.com/yourprofile"
+    linkedin: "https://linkedin.com/in/yourprofile"
+    email: "mailto:votre-email@example.com"
+
+  # Paramètres pour la recherche et les tags
+  search:
+    enable: true
+    placeholder: "Rechercher..."
+  sidebar:
+    compact: false
+    emoji: "🔍"
+    subtitle: "Explorez mes articles par tags"
+    avatar:
+      enabled: false
+      local: true
+      src: "images/avatar.webp"
+
+  # Widgets de la page d'accueil
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 20

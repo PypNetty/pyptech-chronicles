@@ -1,0 +1,51 @@
+{{ define "main" }}
+<main class="main">
+  <article class="content">{{ .Content }}</article>
+
+  <div class="search-and-tags">
+    <div class="search-wrapper">
+      <input
+        id="search"
+        type="text"
+        placeholder='{{
+      .Site.Params.search.placeholder | default "Rechercher..." }}'
+        aria-label="Rechercher"
+      />
+      <div id="search-results"></div>
+    </div>
+
+    <div class="tags-wrapper">
+      <h2>Tags</h2>
+      {{ range .Site.Taxonomies.tags }}
+      <a href="{{ .Page.Permalink }}" class="tag"
+        >{{ .Page.Title }} ({{ .Count }})</a
+      >
+      {{ end }}
+    </div>
+  </div>
+
+  {{ $categories := slice "linux" "reseau" "devops" "reconversion" }} {{ range
+  $categories }}
+  <section class="category-section">
+    <h2>Articles sur {{ title . }}</h2>
+    {{ $categoryPages := where $.Site.RegularPages "Params.categories"
+    "intersect" (slice .) }} {{ range first 3 $categoryPages }} {{ partial
+    "article-list/compact" . }} {{ end }}
+    <a href='{{ "/categories/" | relLangURL }}{{ . | urlize }}'
+      >Voir tous les articles sur {{ title . }}</a
+    >
+  </section>
+  {{ end }}
+
+  <section class="recent-articles">
+    <h2>Articles Récents</h2>
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections
+    }} {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }} {{
+    $filtered := ($pages | intersect $notHidden) }} {{ range first 5 $filtered
+    }} {{ partial "article-list/default" . }} {{ end }}
+  </section>
+
+  {{- partial "pagination.html" . -}}
+</main>
+{{- partial "footer/footer" . -}} {{ end }} {{ define "right-sidebar" }} {{
+partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }} {{ end }}

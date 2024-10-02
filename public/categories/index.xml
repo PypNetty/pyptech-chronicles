@@ -6,13 +6,11 @@
         <description>Recent content in Categories on PypTech Chronicles</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>fr-fr</language>
-        <managingEditor>votre-email@example.com (Votre Nom)</managingEditor>
-        <webMaster>votre-email@example.com (Votre Nom)</webMaster>
         <lastBuildDate>Tue, 01 Oct 2024 18:29:43 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Reconversion</title>
         <link>http://localhost:1313/categories/reconversion/</link>
         <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-        <author>votre-email@example.com (Votre Nom)</author>
+        
         <guid>http://localhost:1313/categories/reconversion/</guid>
         <description></description>
         </item>

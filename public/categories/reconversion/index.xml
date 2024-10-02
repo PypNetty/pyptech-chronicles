@@ -6,13 +6,11 @@
         <description>Recent content in Reconversion on PypTech Chronicles</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>fr-fr</language>
-        <managingEditor>votre-email@example.com (Votre Nom)</managingEditor>
-        <webMaster>votre-email@example.com (Votre Nom)</webMaster>
         <lastBuildDate>Tue, 01 Oct 2024 18:29:43 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/reconversion/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>De la Crise à la Transition : Mon Chemin du Développement à l&#39;Ops</title>
         <link>http://localhost:1313/posts/du-dev-a-ops/</link>
         <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-        <author>votre-email@example.com (Votre Nom)</author>
+        
         <guid>http://localhost:1313/posts/du-dev-a-ops/</guid>
         <description>&lt;h1 id=&#34;de-la-crise-à-la-transition--mon-chemin-du-développement-à-lops&#34;&gt;De la Crise à la Transition : Mon Chemin du Développement à l&amp;rsquo;Ops
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
@@ -62,7 +60,7 @@
         <title>Pourquoi j&#39;ai créé ce site</title>
         <link>http://localhost:1313/posts/pourquoi-jai-cr%C3%A9%C3%A9-ce-site/</link>
         <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-        <author>votre-email@example.com (Votre Nom)</author>
+        
         <guid>http://localhost:1313/posts/pourquoi-jai-cr%C3%A9%C3%A9-ce-site/</guid>
         <description>&lt;p&gt;Bienvenue sur &lt;strong&gt;PypTech Chronicles&lt;/strong&gt; ! Ce site a été créé pour partager mes connaissances en développement, mes expériences en DevOps, et mes projets en informatique.&lt;/p&gt;
 &lt;p&gt;Je vais publier des articles techniques, des tutoriels, et des réflexions sur les technologies modernes que j&amp;rsquo;utilise au quotidien.&lt;/p&gt;

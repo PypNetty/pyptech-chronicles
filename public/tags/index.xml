@@ -5,8 +5,6 @@
         <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on PypTech Chronicles</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>fr-fr</language>
-        <managingEditor>votre-email@example.com (Votre Nom)</managingEditor>
-        <webMaster>votre-email@example.com (Votre Nom)</webMaster><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>fr-fr</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
