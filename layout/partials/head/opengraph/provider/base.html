@@ -1,0 +1,16 @@
+{{ $og := .Scratch.Get "og" | default dict }}
+<meta property="og:title" content="{{ $og.title | default .Title }}" />
+<meta
+  property="og:description"
+  content="{{ $og.description | default .Description }}"
+/>
+<meta
+  property="og:type"
+  content="{{ if .IsPage }}article{{ else }}website{{ end }}"
+/>
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ with $og.image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ else }} {{ with $.Site.Params.opengraph_image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }} {{ end }}
