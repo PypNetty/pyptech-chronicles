@@ -5,7 +5,7 @@ theme: "stack"
 
 # Configurations de base pour Hugo
 enableEmoji: true
-enableGitInfo: false # Activation pour utiliser les informations Git pour le champ 'lastmod'
+enableGitInfo: false
 
 # Configuration des taxonomies
 taxonomies:
@@ -24,7 +24,7 @@ markup:
 
 # Configuration des outputs
 outputs:
-  home: ["HTML", "RSS", "JSON"] # Ajout de RSS et JSON pour la recherche et les flux
+  home: ["HTML", "RSS", "JSON"]
 
 # Configuration des permaliens
 permalinks:
@@ -53,6 +53,12 @@ menu:
 params:
   mainSections:
     - posts
+  customCSS:
+    - css/custom.css
+  article:
+    image:
+      enabled: true
+  featuredImageField: "image"
   author:
     name: "PypTech Chronicles"
     bio: "Blog sur Linux, Réseau, DevOps et la reconversion dans l'IT."
@@ -72,10 +78,10 @@ params:
     compact: false
     emoji: "🔍"
     subtitle: "Explorez mes articles"
-    avatar:
-      enabled: false
-      local: true
-      src: "images/avatar.webp"
+  avatar:
+    enabled: false
+    local: true
+    src: "images/avatar.webp"
 
   # Configuration des tags principaux
   tags:
