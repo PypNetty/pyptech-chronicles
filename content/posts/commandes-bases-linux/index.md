@@ -1,9 +1,14 @@
 ---
 title: "Les commandes de base sous Linux : Ce qui se passe sous le capot"
 date: 2024-10-02
-tags: ["linux", "commandes", "TSSR", "réseau"]
-categories: ["Linux"]
-image: "/peur-terminal.png"
+tags:
+  - "linux"
+  - "commandes"
+  - "TSSR"
+  - "réseau"
+categories:
+  - "Linux"
+image: "scared-terminal.png"
 ---
 
 # Les commandes de base sous Linux : Ce qui se passe sous le capot
