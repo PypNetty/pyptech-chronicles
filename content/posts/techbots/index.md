@@ -1,5 +1,5 @@
 ---
-title: "Techbots : Mon Apprentissage de Docker, Bash et Python via des Bots Discord inspirés de Silicon Valley"
+title: "Techbots : Mon apprentissage de Docker, Bash et Python via des bots Discord inspirés de Silicon Valley"
 date: 2024-03-15
 draft: false
 author: "PypTech Chronicles"
