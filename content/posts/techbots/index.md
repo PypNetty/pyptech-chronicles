@@ -11,7 +11,7 @@ slug: "techbots-apprentissage-docker-bash-python"
 
 # Comment j'ai appris Docker, Bash et Python en créant des Bots Discord inspirés de Silicon Valley
 
-![Un montage montrant Gilfoyle et Dinesh entourés de logos Python, Docker et Bash](image1.jpg)
+![ Gilfoyle et Dinesh](gilfoyle_dinesh.jpg)
 
 ## Introduction : Quand l'apprentissage rencontre le sarcasme
 
@@ -21,7 +21,7 @@ Qui aurait cru qu'on pouvait apprendre Docker, Bash et Python tout en donnant vi
 
 ### Gilfoyle et Dinesh : Mes professeurs virtuels involontaires
 
-![Split-screen de Gilfoyle codant et Dinesh debuggant, avec des bulles de dialogue sarcastiques](image2.jpg)
+![Dinesh et Gifloyle](dinesh_and_gilfoyle.jpg)
 
 L'idée m'est venue après un marathon Silicon Valley. Je me suis dit : "Et si je pouvais apprendre la programmation avec Gilfoyle me jugeant silencieusement et Dinesh faisant des erreurs pour que je me sente mieux ?"
 
