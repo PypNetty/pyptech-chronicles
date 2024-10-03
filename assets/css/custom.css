@@ -1,0 +1,27 @@
+.article-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain; /* Conserve les proportions de l'image */
+  margin: 0 auto;
+}
+
+.article-list article .article-image img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  max-width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .article-list article .article-image img {
+    height: auto !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .article-list article .article-image img {
+    height: auto !important;
+  }
+}

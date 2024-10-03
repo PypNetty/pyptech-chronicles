@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Title }}</title>
+
+    <!-- Utilisation du pipeline de ressources de Hugo pour le CSS -->
+    {{ $styles := resources.Get "css/custom.css" | resources.ToCSS |
+    resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" />
+  </head>
+  <body>
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{ if .Params.image }}
+      <img class="image" src="{{ .Params.image }}" alt="Image" loading="lazy" />
+      {{ end }}
+    </header>
+    <main>{{ block "main" . }}{{ end }}</main>
+  </body>
+</html>
