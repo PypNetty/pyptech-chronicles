@@ -78,6 +78,7 @@ params:
     compact: false
     emoji: "🔍"
     subtitle: "Explorez mes articles"
+    custom: true
   avatar:
     enabled: false
     local: true

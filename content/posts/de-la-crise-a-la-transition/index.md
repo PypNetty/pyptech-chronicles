@@ -77,6 +77,10 @@ Aujourd’hui, je regarde en arrière avec un sentiment de fierté. Malgré la *
 
 ## Conclusion
 
+![chemin_resilience](chemin_resilience.jpeg)
+
 Mon parcours de reconversion du **dev à l’Ops** a été un voyage semé d’embûches, mais chaque obstacle a renforcé ma détermination. Que ce soit les crises d'épilepsie, les interruptions de formations dues à la pandémie, ou les changements de direction imprévus, j’ai appris à accepter ces défis et à les transformer en forces.
+
+Le chemin de la reconversion est une aventure continue, un voyage où chaque étape compte. Ce n'est pas la destination qui importe, mais la manière dont nous choisissons de parcourir la route.
 
 Si tu envisages une reconversion ou fais face à des obstacles similaires, sache que tout est possible avec de la persévérance. Le domaine de l’IT est en constante évolution, et chaque compétence acquise, chaque obstacle surmonté, te rapproche de la réussite.
