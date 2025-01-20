@@ -1,6 +1,6 @@
 ---
 title: "Linux : Une visite guidée de votre maison numérique"
-date: 2024-01-20
+date: 2025-01-20
 tags:
  - "linux"
  - "système de fichiers"
