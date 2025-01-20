@@ -1,3 +1,4 @@
+# config.yaml
 baseURL: "https://pyptechlife.xyz"
 languageCode: "fr-fr"
 title: "PypTech Chronicles"
@@ -11,6 +12,7 @@ enableGitInfo: false
 taxonomies:
   category: "categories"
   tag: "tags"
+  series: "series"  # Ajout pour les séries d'articles
 
 # Configuration du rendu Markdown
 markup:
@@ -28,7 +30,11 @@ outputs:
 
 # Configuration des permaliens
 permalinks:
-  posts: "/posts/:slug/"
+  linux: "/linux/:sections/:filename/"
+  bases: "/linux/bases/:filename/"
+  systeme: "/linux/systeme/:filename/"
+  conteneurs: "/conteneurs/:filename/"
+  projets: "/projets/:filename/"
 
 # Configuration du menu principal (Navbar)
 menu:
@@ -36,29 +42,43 @@ menu:
     - name: "Accueil"
       url: "/"
       weight: 1
+    - name: "Linux"
+      url: "/linux/"
+      weight: 2
+    - name: "Conteneurs"
+      url: "/conteneurs/"
+      weight: 3
+    - name: "Projets"
+      url: "/projets/"
+      weight: 4
     - name: "Archives"
       url: "/archives/"
-      weight: 2
+      weight: 5
     - name: "Recherche"
       url: "/search/"
-      weight: 3
+      weight: 6
     - name: "Qui suis-je"
       url: "/whoami"
-      weight: 4
+      weight: 7
     - name: "Mentions légales"
       url: "/mention-legale"
-      weight: 5
+      weight: 8
 
 # Paramètres personnalisés
 params:
   mainSections:
-    - posts
+    - linux
+    - conteneurs
+    - projets
+    - parcours
+  
+  # Le reste de vos paramètres reste identique
   customCSS:
     - css/custom.css
   article:
     image:
       enabled: true
-  featuredImageField: "image"
+      featuredImageField: "image"
   author:
     name: "PypTech Chronicles"
     bio: "Blog sur Linux, Réseau, DevOps et la reconversion dans l'IT."
@@ -70,7 +90,21 @@ params:
     linkedin: "https://linkedin.com/in/yourprofile"
     email: "mailto:votre-email@example.com"
 
-  # Paramètres pour la recherche et les tags
+  # Les widgets restent identiques
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 6
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 20
+
+  # La configuration de la recherche reste identique
   search:
     enable: true
     placeholder: "Rechercher..."
@@ -84,27 +118,13 @@ params:
     local: true
     src: "images/avatar.webp"
 
-  # Configuration des tags principaux
+  # Les tags principaux
   tags:
     - linux
     - virtualisation
     - kubernetes
     - docker
     - cloud
-
-  # Widgets de la page d'accueil
-  widgets:
-    homepage:
-      - type: search
-      - type: archives
-        params:
-          limit: 6
-      - type: categories
-        params:
-          limit: 10
-      - type: tag-cloud
-        params:
-          limit: 20
 
 # Configuration pour la gestion des dates de modification
 frontmatter:
