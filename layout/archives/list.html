@@ -4,14 +4,22 @@
     <h1>{{ .Title }}</h1>
     {{ range .Site.RegularPages.GroupByDate "2006" }}
     <h2>{{ .Key }}</h2>
-    <ul>
+    <div class="article-list">
       {{ range .Pages }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <span class="date">{{ .Date.Format "January 2" }}</span>
-      </li>
+      <div class="article-card">
+        <div class="card-header">
+          <h3 class="card-title">{{ .Title }}</h3>
+          <span class="card-date">{{ .Date.Format "January 2" }}</span>
+        </div>
+        <div class="card-body">
+          <p class="card-excerpt">{{ .Summary }}</p>
+        </div>
+        <div class="card-footer">
+          <a href="{{ .Permalink }}" class="card-link">Lire la suite</a>
+        </div>
+      </div>
       {{ end }}
-    </ul>
+    </div>
     {{ end }}
   </article>
 </main>
