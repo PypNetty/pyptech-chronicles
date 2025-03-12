@@ -1,5 +1,4 @@
-# config.yaml
-baseURL: "https://pyptechlife.xyz"
+baseURL: "https://blog.pyptechlife.xyz/"
 languageCode: "fr-fr"
 title: "PypTech Chronicles"
 theme: "stack"
@@ -12,7 +11,7 @@ enableGitInfo: false
 taxonomies:
   category: "categories"
   tag: "tags"
-  series: "series"  # Ajout pour les séries d'articles
+  series: "series" # Ajout pour les séries d'articles
 
 # Configuration du rendu Markdown
 markup:
@@ -31,10 +30,9 @@ outputs:
 # Configuration des permaliens
 permalinks:
   linux: "/linux/:sections/:filename/"
-  bases: "/linux/bases/:filename/"
-  systeme: "/linux/systeme/:filename/"
-  conteneurs: "/conteneurs/:filename/"
-  projets: "/projets/:filename/"
+  conteneurs: "/conteneurs/:sections/:filename/"
+  projets: "/projets/:sections/:filename/"
+  archives: "/archives/:sections/:filename/"
 
 # Configuration du menu principal (Navbar)
 menu:
@@ -58,10 +56,10 @@ menu:
       url: "/search/"
       weight: 6
     - name: "Qui suis-je"
-      url: "/whoami"
+      url: "/whoami/"
       weight: 7
     - name: "Mentions légales"
-      url: "/mention-legale"
+      url: "/mentions-legales/"
       weight: 8
 
 # Paramètres personnalisés
@@ -70,8 +68,8 @@ params:
     - linux
     - conteneurs
     - projets
-    - parcours
-  
+    - archives
+
   # Le reste de vos paramètres reste identique
   customCSS:
     - css/custom.css
