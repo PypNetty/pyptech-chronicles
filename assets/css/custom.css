@@ -44,3 +44,252 @@
   background: var(--card-background);
   border-radius: var(--card-border-radius);
 }
+
+
+/* Styles pour les images d'articles */
+.article-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain; /* Conserve les proportions de l'image */
+  margin: 0 auto;
+}
+
+.article-list article .article-image img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  max-width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .article-list article .article-image img {
+      height: auto !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .article-list article .article-image img {
+      height: auto !important;
+  }
+}
+
+/* Styles pour le profil */
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border: 2px solid var(--card-background);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-profile {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+}
+
+/* ====== NOUVEAUX STYLES POUR CORRIGER L'ESPACEMENT DES ARTICLES ====== */
+
+/* Amélioration de l'espacement entre les articles dans la liste principale */
+.article-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Amélioration des cartes d'articles dans le thème Stack */
+.article-list .article-wrapper {
+  border: 1px solid rgba(125, 125, 125, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card-background);
+  margin-bottom: 20px; /* Espacement vertical entre les cartes */
+}
+
+.article-list .article-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Amélioration de l'aspect des cartes d'articles */
+.article-list article {
+  height: 100%;
+  margin-bottom: 0; /* Suppression de la marge par défaut du thème */
+}
+
+/* Style pour le contenu de l'article */
+.article-list .article-content {
+  padding: 1.25rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style pour les titres d'articles */
+.article-list .article-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+/* Style pour la date et les métadonnées */
+.article-list .article-time {
+  font-size: 0.875rem;
+  color: var(--card-text-color-secondary);
+  margin-bottom: 1rem;
+}
+
+/* Style pour le résumé de l'article */
+.article-list .article-excerpt {
+  font-size: 0.95rem;
+  color: var(--card-text-color-tertiary);
+  margin-top: 0.75rem;
+}
+
+/* Style pour le pied de la carte */
+.article-list .article-footer {
+  padding: 1rem 1.25rem;
+  border-top: 1px solid rgba(125, 125, 125, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles pour les catégories et tags */
+.article-list .article-categories, 
+.article-list .article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Style pour les badges de catégories et tags */
+.article-list .article-category,
+.article-list .article-tag {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background-color: rgba(125, 125, 125, 0.1);
+  transition: background-color 0.2s;
+}
+
+.article-list .article-category:hover,
+.article-list .article-tag:hover {
+  background-color: rgba(125, 125, 125, 0.2);
+}
+
+/* Amélioration de l'espacement dans les archives */
+.archives-group {
+  margin-bottom: 3rem;
+}
+
+.archives-group .archives-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(125, 125, 125, 0.1);
+  transition: background-color 0.2s;
+}
+
+.archives-group .archives-item:hover {
+  background-color: rgba(125, 125, 125, 0.05);
+}
+
+/* Amélioration de l'espacement des sections dans les articles */
+.article-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.article-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+/* Correctifs spécifiques pour les pages d'archives et de catégories */
+
+/* Ajout d'espace entre les articles listés dans les catégories */
+.article-list--compact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Style pour chaque élément de la liste */
+.article-list--compact article {
+  border: 1px solid rgba(125, 125, 125, 0.15);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  margin-bottom: 1rem;
+}
+
+.article-list--compact article:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  background-color: var(--card-background-hover, rgba(125, 125, 125, 0.05));
+}
+
+/* Style pour les titres dans les listes compactes */
+.article-list--compact .article-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Amélioration de l'espacement pour les groupes dans les archives */
+.archives-group {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(125, 125, 125, 0.1);
+}
+
+.archives-group:last-child {
+  border-bottom: none;
+}
+
+/* Espacement des éléments dans les archives */
+.archives-item {
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.archives-item:hover {
+  background-color: rgba(125, 125, 125, 0.05);
+}
+
+/* Amélioration des titres de sections */
+.archives-group > h2,
+.taxonomies-list h2 {
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(125, 125, 125, 0.1);
+}
+
+/* Amélioration pour la page de catégories */
+.categories-card {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.category-item {
+  border: 1px solid rgba(125, 125, 125, 0.15);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
