@@ -1,4 +1,4 @@
-baseURL: "https://pyptechlife.xyz/"
+baseURL: "https://blog.pyptechlife.xyz/"
 languageCode: "fr-fr"
 title: "PypTech Chronicles"
 theme: "stack"
@@ -32,7 +32,11 @@ permalinks:
   linux: "/linux/:sections/:filename/"
   conteneurs: "/conteneurs/:sections/:filename/"
   projets: "/projets/:sections/:filename/"
-  archives: "/archives/:sections/:filename/"
+  archives: "/archives/:year/:month/:filename/"
+  aws: "/aws/:sections/:filename/"
+  terraform: "/terraform/:sections/:filename/"
+  ansible: "/ansible/:sections/:filename/"
+  podman: "/podman/:sections/:filename/"
 
 # Configuration du menu principal (Navbar)
 menu:
@@ -52,15 +56,27 @@ menu:
     - name: "Archives"
       url: "/archives/"
       weight: 5
+    - name: "AWS"
+      url: "/aws/"
+      weight: 6
+    - name: "Terraform"
+      url: "/terraform/"
+      weight: 7
+    - name: "Ansible"
+      url: "/ansible/"
+      weight: 8
+    - name: "Podman"
+      url: "/podman/"
+      weight: 9
     - name: "Recherche"
       url: "/search/"
-      weight: 6
+      weight: 10
     - name: "Qui suis-je"
       url: "/whoami/"
-      weight: 7
+      weight: 11
     - name: "Mentions légales"
       url: "/mentions-legales/"
-      weight: 8
+      weight: 12
 
 # Paramètres personnalisés
 params:
@@ -69,6 +85,10 @@ params:
     - conteneurs
     - projets
     - archives
+    - aws
+    - terraform
+    - ansible
+    - podman
 
   # Le reste de vos paramètres reste identique
   customCSS:
@@ -123,6 +143,10 @@ params:
     - kubernetes
     - docker
     - cloud
+    - aws
+    - terraform
+    - ansible
+    - podman
 
 # Configuration pour la gestion des dates de modification
 frontmatter:
