@@ -1,45 +1,50 @@
 ---
 title: "Qui suis-je"
 date: 2024-10-02
-
 layout: "whoami"
 ---
 
-# Bienvenue !
+## Bienvenue sur PypTech Chronicles !
 
-Je m'appelle Henryck Paris, étudiant passionné par les technologies Linux, DevOps, et les réseaux. À travers **PypTech Chronicles**, je partage ce que j'apprends et réalise tout au long de mon parcours en systèmes et réseaux. Mon objectif est d'aider d'autres personnes, notamment les étudiants en formation TSSR (Technicien Supérieur Systèmes et Réseaux).
+Salut, je suis Henryck Paris, étudiant en Bachelor Administration Système DevOps, passionné de technologies et spécialisé dans l'écosystème Linux, le DevOps et les infrastructures réseau. Ce blog est mon espace de partage où je documente mon parcours d'apprentissage, mes découvertes et mes projets dans le domaine des systèmes et réseaux.
+
+Ma mission ? Partager des connaissances accessibles et pratiques, particulièrement pour les personnes qui s'intéressent à l'administration système et au DevOps, y compris celles qui suivent une formation TSSR (Technicien Supérieur Systèmes et Réseaux) comme je l'ai fait avant d'intégrer mon Bachelor.
 
 ## Mon Parcours
 
-Je suis actuellement en formation TSSR, avec une spécialisation dans les systèmes et réseaux, en particulier sur :
+Après avoir obtenu mon diplôme de Technicien Supérieur en Systèmes et Réseaux (TSSR), je poursuis actuellement un Bachelor en Administration Système avec une spécialisation en DevOps et Cloud. Bien que je sois encore étudiant, j'utilise ce blog pour documenter mes progrès et mes réalisations, tout en préparant mon futur parcours professionnel.
 
-- 🎓 **Linux et le réseau** dans le cadre de ma formation.
-- 💻 **Projets** en administration de serveurs, configurations réseau, et solutions DevOps.
+## Mes Domaines de Spécialisation
 
-Bien que je sois encore étudiant, j'utilise ce blog pour documenter mes progrès et mes réalisations, tout en préparant mon futur parcours. Après le TSSR, je prévois de poursuivre avec un **Bachelor en Administration Système DevOps** afin de développer mes compétences en systèmes et automatisation.
+Je me concentre particulièrement sur :
+
+- 🎓 [**Linux et le réseau**](/linux) - Fondamentaux et configurations avancées
+- 💻 [**Administration de serveurs**](/projets) - Installation, configuration et maintenance
+- 📦 [**Conteneurisation**](/conteneurs) - Docker, Kubernetes et déploiements isolés
+- 🏗️ [**Provisionnement**](/terraform) - Terraform, Ansible et gestion automatisée des infrastructures
+- ⚙️ [**Automatisation**](/ansible) - CI/CD, scripts et optimisation des processus
+- ☁️ [**Cloud**](/aws) - AWS, Azure, solutions évolutives et résilientes
 
 ## Pourquoi ce blog ?
 
-Mon blog a pour but de :
+PypTech Chronicles a un triple objectif :
 
-- Partager des **tutoriels** et **astuces** sur Linux, le réseau, et les outils DevOps.
-- Offrir un **soutien** aux étudiants en TSSR, particulièrement ceux qui se concentrent sur Linux et réseau.
-- Documenter mon propre **parcours d'apprentissage**, en préparation du Bachelor DevOps.
+1. **Partager des connaissances** - Tutoriels détaillés et astuces pratiques sur Linux, le réseau et les outils DevOps.
+2. **Soutenir les reconversions IT** - Ressources accessibles pour les personnes qui souhaitent se lancer dans les métiers de l'informatique.
+3. **Documenter mon parcours** - Journal de bord de mes apprentissages, défis et réussites dans le domaine du DevOps.
 
-## Soutenir les étudiants en TSSR
+Je crois fermement au partage des connaissances et à l'entraide dans la communauté tech. C'est pourquoi je m'efforce de rendre mes articles aussi clairs et pratiques que possible, en partageant à la fois mes succès et les difficultés rencontrées.
 
-Je souhaite que ce blog soit une ressource utile pour les étudiants en TSSR. Vous trouverez ici :
+## Explorez PypTech Chronicles
 
-- Des articles couvrant des aspects de votre formation, comme Linux et le réseau.
-- Des conseils pratiques basés sur mon apprentissage et mes projets.
+Sur ce blog, vous trouverez un contenu varié allant des [bases de Linux](/linux) aux [configurations cloud](/aws) avancées, en passant par des tutoriels sur les outils DevOps modernes. J'aborde aussi régulièrement les défis rencontrés par les étudiants et les professionnels en début de carrière dans ces domaines.
 
-## Explorez le contenu
+Accès rapides :
+- [Tous les articles](/archives)
+- [Conteneurisation](/conteneurs)
+- [Projets](/projets)
+- [Terraform](/terraform)
+- [Ansible](/ansible)
+- [Podman](/podman)
 
-Voici ce que vous pouvez découvrir sur ce blog :
-
-- **Linux** : Tutoriels, configurations, et bonnes pratiques
-- **Réseau** : Concepts clés et configurations réseau
-- **DevOps** : Outils, méthodologies, et retours d'expérience
-- **Mon parcours** : Défis et réussites en tant qu'étudiant en IT, en préparation pour le Bachelor en DevOps
-
-N'hésitez pas à me contacter si vous avez des questions ou si vous êtes aussi en formation TSSR et souhaitez échanger des conseils !
+N'hésitez pas à me contacter si vous avez des questions, des suggestions de sujets, ou si vous souhaitez simplement échanger sur les métiers de l'IT !
