@@ -1,45 +1,60 @@
 ---
 title: "Qui suis-je"
-date: 2024-10-02
+date: 2025-06-13
 layout: "whoami"
 ---
 
-## Bienvenue sur PypTech Chronicles !
+## Bienvenue sur *PypTech Chronicles*
 
-Salut, je suis Henryck Paris, étudiant en Bachelor Administration Système DevOps, passionné de technologies et spécialisé dans l'écosystème Linux, le DevOps et les infrastructures réseau. Ce blog est mon espace de partage où je documente mon parcours d'apprentissage, mes découvertes et mes projets dans le domaine des systèmes et réseaux.
+Je m'appelle **Henryck Paris**, étudiant en double Bachelor :  
+- **Administrateur Systèmes DevOps**
+- **Administrateur d’Infrastructures Sécurisées**
 
-Ma mission ? Partager des connaissances accessibles et pratiques, particulièrement pour les personnes qui s'intéressent à l'administration système et au DevOps, y compris celles qui suivent une formation TSSR (Technicien Supérieur Systèmes et Réseaux) comme je l'ai fait avant d'intégrer mon Bachelor.
+Passionné par les technologies open source, je me spécialise dans l’**écosystème Linux**, le **DevOps** et les **infrastructures réseau**.
 
-## Mon Parcours
+Ce blog est mon carnet de bord technique : j’y partage mes découvertes, mes tutoriels, et mes projets réels, en toute transparence.
 
-Après avoir obtenu mon diplôme de Technicien Supérieur en Systèmes et Réseaux (TSSR), je poursuis actuellement un Bachelor en Administration Système avec une spécialisation en DevOps et Cloud. Bien que je sois encore étudiant, j'utilise ce blog pour documenter mes progrès et mes réalisations, tout en préparant mon futur parcours professionnel.
+---
 
-## Mes Domaines de Spécialisation
+## Mon parcours
 
-Je me concentre particulièrement sur :
+J’ai commencé par un **Titre Professionnel TSSR** (Technicien Systèmes et Réseaux), qui m’a donné une base solide en Linux, Windows Server, réseau et supervision.  
+Depuis, je poursuis une montée en compétences avec deux Bachelors en parallèle, pour **consolider à la fois la fiabilité des systèmes et leur automatisation cloud-native**.
 
-- 🎓 [**Linux et le réseau**](/linux) - Fondamentaux et configurations avancées
-- 💻 [**Administration de serveurs**](/projets) - Installation, configuration et maintenance
-- 📦 [**Conteneurisation**](/conteneurs) - Docker, Kubernetes et déploiements isolés
-- 🏗️ [**Provisionnement**](/terraform) - Terraform, Ansible et gestion automatisée des infrastructures
-- ⚙️ [**Automatisation**](/ansible) - CI/CD, scripts et optimisation des processus
-- ☁️ [**Cloud**](/aws) - AWS, Azure, solutions évolutives et résilientes
+---
+
+## Mes domaines de prédilection
+
+- [**Linux & Réseau**](/linux) – du shell à la configuration avancée
+- [**Administration système**](/projets) – maintenance, supervision, sécurité
+- [**Conteneurisation**](/conteneurs) – Docker, Podman, Kubernetes
+- [**Cloud & IaaS**](/aws) – AWS, Azure, scalabilité et haute dispo
+- [**Automatisation & CI/CD**](/ansible) – Ansible, Terraform, GitHub Actions
+- [**Infrastructure as Code**](/terraform) – provisionnement reproductible
+
+---
 
 ## Pourquoi ce blog ?
 
-PypTech Chronicles a un triple objectif :
+**PypTech Chronicles** est né de trois convictions simples :
 
-1. **Partager des connaissances** - Tutoriels détaillés et astuces pratiques sur Linux, le réseau et les outils DevOps.
-2. **Soutenir les reconversions IT** - Ressources accessibles pour les personnes qui souhaitent se lancer dans les métiers de l'informatique.
-3. **Documenter mon parcours** - Journal de bord de mes apprentissages, défis et réussites dans le domaine du DevOps.
+1. **Partager pour mieux apprendre**  
+   → Tutoriels accessibles, exemples concrets, erreurs comprises.
 
-Je crois fermement au partage des connaissances et à l'entraide dans la communauté tech. C'est pourquoi je m'efforce de rendre mes articles aussi clairs et pratiques que possible, en partageant à la fois mes succès et les difficultés rencontrées.
+2. **Soutenir les reconversions IT**  
+   → J’ai moi-même vécu cette transition, je sais ce que ça implique.
 
-## Explorez PypTech Chronicles
+3. **Documenter mon propre chemin**  
+   → Pour garder une trace, mais aussi pour inspirer et aider.
 
-Sur ce blog, vous trouverez un contenu varié allant des [bases de Linux](/linux) aux [configurations cloud](/aws) avancées, en passant par des tutoriels sur les outils DevOps modernes. J'aborde aussi régulièrement les défis rencontrés par les étudiants et les professionnels en début de carrière dans ces domaines.
+Je crois fermement que **l’entraide fait partie de la technique**. C’est en posant des questions, en partageant nos galères et nos trouvailles qu’on progresse.
 
-Accès rapides :
+---
+
+## Explorez le contenu
+
+Voici quelques portes d’entrée vers le blog :
+
 - [Tous les articles](/archives)
 - [Conteneurisation](/conteneurs)
 - [Projets](/projets)
@@ -47,4 +62,14 @@ Accès rapides :
 - [Ansible](/ansible)
 - [Podman](/podman)
 
-N'hésitez pas à me contacter si vous avez des questions, des suggestions de sujets, ou si vous souhaitez simplement échanger sur les métiers de l'IT !
+---
+
+## Me contacter
+
+Une question ? Un sujet à me proposer ? Ou juste envie d’échanger autour des métiers de l’IT ?  
+[Contactez-moi](/whoami#contact) ou passez par [GitHub](https://github.com/pypnetty), [LinkedIn](https://linkedin.com/in/henryck-paris) ou [Twitter](https://twitter.com/AdLepsy).
+
+---
+
+*PypTech Chronicles, c’est un blog, mais aussi une boussole.*  
+*Pour ne pas juste apprendre à faire, mais comprendre pourquoi on le fait.*
