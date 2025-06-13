@@ -25,18 +25,19 @@ markup:
 
 # Configuration des outputs
 outputs:
-  home: ["HTML", "RSS", "JSON"]
+  home: ["HTML", "RSS"]
 
 # Configuration des permaliens
 permalinks:
-  linux: "/linux/:sections/:filename/"
-  conteneurs: "/conteneurs/:sections/:filename/"
-  projets: "/projets/:sections/:filename/"
-  archives: "/archives/:year/:month/:filename/"
-  aws: "/aws/:sections/:filename/"
-  terraform: "/terraform/:sections/:filename/"
-  ansible: "/ansible/:sections/:filename/"
-  podman: "/podman/:sections/:filename/"
+  linux: "/linux/:sections/:contentbasename/"
+  conteneurs: "/conteneurs/:sections/:contentbasename/"
+  projets: "/projets/:sections/:contentbasename/"
+  archives: "/archives/:year/:month/:contentbasename/"
+  aws: "/aws/:sections/:contentbasename/"
+  terraform: "/terraform/:sections/:contentbasename/"
+  ansible: "/ansible/:sections/:contentbasename/"
+  podman: "/podman/:sections/:contentbasename/"
+
 
 # Configuration du menu principal (Navbar)
 menu:
