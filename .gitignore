@@ -2,6 +2,8 @@
 /public/
 /resources/_gen/
 /node_modules/
+/resources/_gen/
+
 
 # Ignorer les fichiers de configuration spécifiques
 .hugo_build.lock
