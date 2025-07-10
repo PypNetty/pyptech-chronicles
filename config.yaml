@@ -11,7 +11,7 @@ enableGitInfo: false
 taxonomies:
   category: "categories"
   tag: "tags"
-  series: "series" # Ajout pour les séries d'articles
+  series: "series"
 
 # Configuration du rendu Markdown
 markup:
@@ -37,7 +37,7 @@ permalinks:
   terraform: "/terraform/:sections/:contentbasename/"
   ansible: "/ansible/:sections/:contentbasename/"
   podman: "/podman/:sections/:contentbasename/"
-
+  fyndra: "/fyndra/:sections/:contentbasename/"
 
 # Configuration du menu principal (Navbar)
 menu:
@@ -45,6 +45,9 @@ menu:
     - name: "Accueil"
       url: "/"
       weight: 1
+    - name: "Fyndra"
+      url: "/fyndra/"
+      weight: 1.5
     - name: "Linux"
       url: "/linux/"
       weight: 2
@@ -90,26 +93,29 @@ params:
     - terraform
     - ansible
     - podman
+    - fyndra
 
-  # Le reste de vos paramètres reste identique
   customCSS:
     - css/custom.css
+
   article:
     image:
       enabled: true
       featuredImageField: "image"
+
   author:
     name: "PypTech Chronicles"
     bio: "Blog sur Linux, Réseau, DevOps et la reconversion dans l'IT."
     avatar: "images/avatar.webp"
+
   description: "Découvrez des articles techniques sur les technologies Linux, DevOps, et Réseau."
+
   social:
     twitter: "https://twitter.com/yourprofile"
     github: "https://github.com/yourprofile"
     linkedin: "https://linkedin.com/in/yourprofile"
     email: "mailto:votre-email@example.com"
 
-  # Les widgets restent identiques
   widgets:
     homepage:
       - type: search
@@ -123,21 +129,21 @@ params:
         params:
           limit: 20
 
-  # La configuration de la recherche reste identique
   search:
     enable: true
     placeholder: "Rechercher..."
+
   sidebar:
     compact: false
     emoji: "🔍"
     subtitle: "Explorez mes articles"
     custom: true
+
   avatar:
     enabled: false
     local: true
     src: "images/avatar.webp"
 
-  # Les tags principaux
   tags:
     - linux
     - virtualisation
@@ -148,6 +154,12 @@ params:
     - terraform
     - ansible
     - podman
+    - fyndra
+    - tailscale
+    - headscale
+    - gitops
+    - promox
+    - caddy
 
 # Configuration pour la gestion des dates de modification
 frontmatter:

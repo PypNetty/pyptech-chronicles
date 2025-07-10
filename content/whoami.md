@@ -10,7 +10,7 @@ Je m'appelle **Henryck Paris**, étudiant en double Bachelor :
 - **Administrateur Systèmes DevOps**
 - **Administrateur d’Infrastructures Sécurisées**
 
-Passionné par les technologies open source, je me spécialise dans l’**écosystème Linux**, le **DevOps** et les **infrastructures réseau**.
+Passionné par les technologies open source, je me spécialise dans l’**écosystème Linux** et les **infrastructures réseau**.
 
 Ce blog est mon carnet de bord technique : j’y partage mes découvertes, mes tutoriels, et mes projets réels, en toute transparence.
 
