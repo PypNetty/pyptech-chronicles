@@ -29,15 +29,16 @@ outputs:
 
 # Configuration des permaliens
 permalinks:
-  linux: "/linux/:sections/:contentbasename/"
-  conteneurs: "/conteneurs/:sections/:contentbasename/"
-  projets: "/projets/:sections/:contentbasename/"
-  archives: "/archives/:year/:month/:contentbasename/"
-  aws: "/aws/:sections/:contentbasename/"
-  terraform: "/terraform/:sections/:contentbasename/"
-  ansible: "/ansible/:sections/:contentbasename/"
-  podman: "/podman/:sections/:contentbasename/"
-  fyndra: "/fyndra/:sections/:contentbasename/"
+  linux: "/linux/:sections/:slug/"
+  conteneurs: "/conteneurs/:sections/:slug/"
+  projets: "/projets/:sections/:slug/"
+  archives: "/archives/:year/:month/:slug/"
+  aws: "/aws/:sections/:slug/"
+  terraform: "/terraform/:sections/:slug/"
+  ansible: "/ansible/:sections/:slug/"
+  podman: "/podman/:sections/:slug/"
+  fyndra: "/fyndra/:sections/:slug/"
+
 
 # Configuration du menu principal (Navbar)
 menu:
